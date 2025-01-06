@@ -1,0 +1,65 @@
+Assignment 1: Identify Block vs Inline Elements
+-----------------------------------------------------
+Create an HTML file with the following elements:
+<div>
+<p>
+<span>
+<a>
+<h1>
+<strong>
+<img>
+Add some text content or images inside each element.
+Open the HTML file in a browser and observe:
+Which elements start on a new line?
+Which elements can sit next to each other?
+
+
+Assignment 2: Styling Block vs Inline Elements
+--------------------------------------------------
+Create an HTML file with a <div> and <span> inside a <body> tag.
+Apply CSS styles:
+Set a background color for each element.
+Set width: 200px and height: 50px for both elements.
+Observe:
+How the browser renders the styles for block and inline elements.
+Note what happens when you add display: inline-block or display: block to the inline element.
+
+
+Assignment 3: Modify Display Property
+-----------------------------------------------
+Create a list of elements like this:
+html
+Copy code
+<p>This is a block-level element.</p>
+<span>This is an inline element.</span>
+<div>This is another block-level element.</div>
+Add CSS to change their display properties:
+Change the <span> to behave like a block element (display: block).
+Change the <div> to behave like an inline element (display: inline).
+Observe how the layout changes.
+
+
+Assignment 4: Create a Simple Layout
+-----------------------------------------------
+Create a simple HTML structure for a webpage:
+html
+Copy code
+<header>This is the header</header>
+<nav>This is the navigation bar</nav>
+<main>
+    <p>This is the main content.</p>
+    <span>Highlighted text inside the main content.</span>
+</main>
+<footer>This is the footer</footer>
+Apply CSS to style the layout:
+Use block-level elements for the header, nav, main, and footer.
+Use inline elements (like <span>) for parts of the text that need to be styled differently.
+Assignment 5: Inline Elements Inside Block Elements
+Create a <div> with the following content:
+html
+Copy code
+<div>
+    This is a block element with <span style="color: red;">inline</span> text inside it.
+</div>
+Experiment with adding more inline elements (<b>, <i>, <u>) inside the <div>.
+Observe how inline elements only affect the specific part of the content, while the block element affects the entire section.
