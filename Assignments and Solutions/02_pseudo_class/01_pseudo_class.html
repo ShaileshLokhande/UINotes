@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo-Class Example</title>
+    <style>
+      /* Hover */
+      a:hover {
+        color: red;
+        text-decoration: underline;
+      }
+
+      /* Focus */
+      /*input:focus {
+        border: 2px solid blue;
+      }*/
+
+      /* Checked */
+      input[type="checkbox"] {
+        background-color: yellow;
+        color: green;
+        cursor: pointer;
+        
+      }
+
+      /* First child */
+      li:first-child {
+        font-weight: bold;
+        color: blue;
+      }
+
+      /* Nth child */
+      li:nth-child(3) {
+        background-color: lightgray;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Pseudo-Class Assignment</h1>
+    <a href="#">Hover over me</a>
+    <br /><br />
+
+    <input type="text" placeholder="Focus on me" />
+    <br /><br />
+<label for="checkboxes">Checkbox: </label>
+    <input type="checkbox" />
+
+    <ul>
+      <li>First Item</li>
+      <li>Second Item</li>
+      <li>Third Item</li>
+    </ul>
+  </body>
+</html>

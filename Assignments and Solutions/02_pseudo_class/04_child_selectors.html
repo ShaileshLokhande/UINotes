@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Child Selectors Example</title>
+  <style>
+    /* Style the first child differently */
+    ul li:first-child {
+      font-size: 20px;
+      font-weight: bold;
+      color: darkblue;
+    }
+
+    /* Style every even child with a background color */
+    ul li:nth-child(even) {
+      background-color: lightgray;
+    }
+  </style>
+</head>
+<body>
+  <h1>Child Selectors Example</h1>
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+    <li>Item 4</li>
+    <li>Item 5</li>
+  </ul>
+</body>
+</html>

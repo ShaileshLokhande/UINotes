@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spacing Between Elements</title>
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      padding: 20px ; /* Space inside the box */
+      margin: 20px; /* Space between boxes */
+      background-color: lightblue;
+      border: 2px solid blue;
+      display: flex;
+      justify-content: center; /* Horizontal alignment */
+      align-items: center;     /* Vertical alignment */
+      float: left;
+
+    }
+    .box:last-child {
+      margin-bottom: 0; /* Remove margin for the last box */
+    }
+  </style>
+</head>
+<body>
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</body>
+</html>

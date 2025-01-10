@@ -1,0 +1,86 @@
+Here are some **practical assignment questions** to help you master **margin** and **padding**:
+
+---
+
+### **Basic Questions**
+1. **Simple Box Layout**:  
+   Create a `div` with a width of `200px`, padding of `20px`, and margin of `30px`. Calculate the total width of the `div` when:
+   - `box-sizing: content-box`
+   - `box-sizing: border-box`
+
+---
+
+### **Intermediate Questions**
+2. **Spacing Between Elements**:  
+   Create a series of three `div` elements stacked vertically. Use:
+   - Padding to increase the space inside the `div`s.
+   - Margin to control the spacing between the `div`s.  
+
+   Adjust the spacing to make the gap between the boxes exactly `20px`. Use the browser's developer tools to verify your solution.
+
+---
+
+3. **Center a Box**:  
+   Center a `div` both **horizontally** and **vertically** in the viewport using margin.  
+   Constraints:
+   - The box should have `width: 50%` and `height: 200px`.
+   - Add `padding: 20px` and a `border: 5px solid black` to the box.
+
+---
+
+### **Advanced Questions**
+4. **Nested Padding**:  
+   Create a parent `div` with a child `div` inside it.  
+   - Apply `padding` of `20px` to the parent `div`.
+   - Apply `margin` of `10px` to the child `div`.  
+   Question: How does the margin of the child affect its position relative to the parent?
+
+---
+
+5. **Overlapping Margins**:  
+   Create two stacked `div` elements where the **top margin** of the second `div` overlaps with the **bottom margin** of the first.  
+   - Investigate and explain how **margin collapsing** works.
+   - Fix the overlap to ensure the margins add up as expected.
+
+---
+
+6. **Responsive Box**:  
+   Create a responsive `div` with the following requirements:
+   - Use percentages for margin and padding.
+   - The padding should adjust dynamically based on the size of the viewport.
+   - Add a `border` and verify how the box scales with the viewport width.
+
+---
+
+7. **Grid Layout with Padding and Margin**:  
+   Create a 3x3 grid of square boxes (like a tic-tac-toe board).  
+   - Add `padding` inside each box to make the content look well-spaced.
+   - Add `margin` between the boxes to ensure there is consistent spacing between them.
+
+---
+
+### **Challenge Questions**
+8. **Margin vs Padding in Button Design**:  
+   Design a button that:
+   - Uses **padding** to ensure the text inside the button is spaced evenly.
+   - Uses **margin** to control the space between multiple buttons.  
+   Test how the button looks when the text length changes.
+
+---
+
+9. **Recreate a Card Layout**:  
+   Create a card layout where each card has:
+   - A title, description, and image.
+   - Use `padding` to ensure the content inside the card looks well-spaced.
+   - Use `margin` to create space between multiple cards.
+
+---
+
+10. **Combination of Margins and Padding**:  
+    Create a web page with a header, content area, and footer:
+    - Add padding inside each section to ensure the content doesn't touch the edges.
+    - Add margins between the sections to create visual separation.
+
+---
+
+Let me know if you'd like detailed answers, examples, or guidance on any of these questions! 😊

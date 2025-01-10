@@ -1,0 +1,91 @@
+Here’s an assignment on **Background Images** that you can use for learning or teaching purposes:
+
+---
+
+### **Assignment: Working with Background Images in Web Design**
+
+#### **Objective:**
+To understand and implement background images in web design using HTML and CSS. You will explore different properties of CSS to style background images effectively.
+
+---
+
+### **Instructions:**
+
+1. **Set Up:**
+   - Create a folder named `background-images-assignment`.
+   - Inside the folder, create two files: `index.html` and `styles.css`.
+
+2. **Requirements:**
+   You must complete the following tasks:
+
+   #### **Part 1: Simple Background Image**
+   - Add a `div` with the class `background-1`.
+   - Set a background image for the `div` using CSS.
+   - Make the background image:
+     - Cover the entire `div`.
+     - Be responsive.
+
+   #### **Part 2: Multiple Background Images**
+   - Add a `div` with the class `background-2`.
+   - Apply multiple background images to this `div`.
+   - Use CSS to:
+     - Specify the size and position of each background image.
+     - Ensure images don’t overlap unless intended.
+
+   #### **Part 3: Fixed Background Image**
+   - Create a section with some dummy content (e.g., paragraphs or headings).
+   - Set a fixed background image for this section (parallax effect).
+   - The background should remain stationary when you scroll the page.
+
+   #### **Part 4: Gradient and Background Combination**
+   - Add a `div` with the class `background-4`.
+   - Apply a background gradient over a background image.
+   - Experiment with gradient transparency.
+
+   #### **Part 5: Pattern Background**
+   - Use a small image to create a pattern (tiled) background for a `div` with the class `background-5`.
+
+3. **Enhancements (Optional):**
+   - Add hover effects to some of the `div` elements. For example:
+     - Change the background image on hover.
+     - Change the gradient colors on hover.
+   - Add transitions or animations to make the effects smooth.
+
+---
+
+### **Example Output:**
+Your webpage should demonstrate the following:
+1. A full-screen background image (`background-1`).
+2. A `div` with multiple layered background images (`background-2`).
+3. A parallax effect with fixed background (`background-3`).
+4. A combination of gradient and image (`background-4`).
+5. A pattern-tiled background (`background-5`).
+
+---
+
+### **Submission Guidelines:**
+- Submit the `background-images-assignment` folder as a zipped file.
+- Ensure your code is well-formatted and commented.
+- Include screenshots of the output in a folder named `screenshots`.
+
+---
+
+### **Resources for Reference:**
+- [CSS Background Property](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+- [CSS Background Image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+- [CSS Gradients](https://developer.mozilla.org/en-US/docs/Web/CSS/gradient)
+
+---
+
+### **Grading Criteria:**
+| Criteria                     | Points |
+|------------------------------|--------|
+| Proper use of CSS properties | 20     |
+| Implementation of requirements | 40    |
+| Creativity and aesthetics    | 20     |
+| Code readability and comments | 10     |
+| Optional enhancements        | 10     |
+
+---
+
+Let me know if you'd like help with solutions or a template! 😊

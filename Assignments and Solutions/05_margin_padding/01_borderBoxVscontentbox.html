@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      /* Explanation of Results:
+      1. box-sizing: content-box (Default):
+      The width: 200px refers only to the content area.
+      Padding (20px on each side) and border (5px on each side) are added to the width, resulting in:
+      Total Width: 200px (content) + 40px (padding) + 10px (border) = 250px.
+      The element appears larger because padding and border are outside the defined width.
+      2. box-sizing: border-box:
+      The width: 200px includes the content, padding, and border.
+      Padding and border are part of the total width, so the actual content width is:
+      Content Width: 200px - 40px (padding) - 10px (border) = 150px.
+      The element appears smaller because the content shrinks to fit within the specified width.
+      Visualization of Difference
+      The content-box element will look bigger because its padding and border add extra width.
+      The border-box element will look smaller but aligns precisely with the width you specified (200px total).
+      */
+        div {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+  background-color: lightblue;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Content-Box Example */
+.content-box {
+  box-sizing: content-box; /* Default behavior */
+}
+
+/* Border-Box Example */
+.border-box {
+  box-sizing: border-box; /* Includes padding and border in width */
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="content-box">Content Box</div>
+<div class="border-box">Border Box</div>
+
+</body>
+</html>
+
+
