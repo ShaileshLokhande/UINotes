@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var tracker;
+        var sum = 0;
+        var start =parseInt(prompt("Enter the starting number"));
+        var end = parseInt(prompt("Enter the ending number"));
+        for(tracker=start; tracker<=end; tracker++){
+            if(tracker%2==1){
+                sum+=tracker;
+            }
+        }  
+        document.write(`Sum of odd numbers between ${start} to ${end}: ${sum}`);
+
+    </script>
+</body>
+</html>

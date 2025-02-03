@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = prompt("What is employee name?");  
+        document.write("Hello " + name + "!");
+        var gender= prompt("Enter the gender of employee");
+        var salary= prompt("Enter the salary of employee");
+        salary=parseInt(salary);
+        var total= salary + (salary*0.12) + (salary*0.25);
+        document.write("<br> Total salary: " + total);
+        var tax;
+        if(gender.toLowerCase()=="male"){
+            if(total>=100000){
+                tax=total*0.15;
+            document.write("<br> Tax: ", total*0.15);
+            }
+            else if(total>=50000){
+                tax=total*0.10;
+            document.write("<br> Tax: ", total*0.10);
+            }
+            else if(total>=20000){
+                tax=total*0.05;
+            document.write("<br> Tax: ", total*0.05);
+            }
+            else{
+                tax=0;
+            document.write("<br> Zero tax");
+            }
+        }
+        else if(gender.toLowerCase()=="female"){
+            if(total>=100000){
+                tax=total*0.10;
+            document.write("<br> Tax: ", total*0.10);
+            }
+            else if(total>=50000){
+                tax=total*0.05;
+            document.write("<br> Tax: ", total*0.05);
+            }
+        
+            else{
+                tax=0;
+            document.write("<br> Zero tax");
+            }
+        }
+        document.write("<br> in hand salary: ", total-tax);
+    </script>
+    
+</body>
+</html>

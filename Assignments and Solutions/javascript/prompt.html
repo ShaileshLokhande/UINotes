@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name = prompt("What is your name?");
+        
+        document.write("Hello " + name + "!");
+        var sub1= prompt("Enter the marks of subject 1");
+        sub1=parseInt(sub1);
+        var sub2= prompt("Enter the marks of subject 2");
+        sub2=parseInt(sub2);
+        var sub3= prompt("Enter the marks of subject 3");
+        sub3=parseInt(sub3);
+        var total= sub1+sub2+sub3;
+        var avg=total/3;
+        document.write("<br> Total marks: " + total);
+        document.write("<br> Average marks: " + avg);
+        if(avg>=80){
+            document.write("<br> Grade: A+");
+        }
+        else if(avg>=70){
+            document.write("<br> Grade: A");
+        }
+        else if(avg>=60){
+            document.write("<br> Grade: B");
+        }
+        else if(avg>=50){
+            document.write("<br> Grade: C");
+        }
+        else if(avg>=40){
+            document.write("<br> Grade: D");
+        }
+        else{
+            document.write("<br> Grade: F");
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        //prime between 20 to 100
+        //user given range.
+        //find sum of all prime between 91 to 23
+        var start =parseInt(prompt("enter smaller start number"));
+        var end =parseInt(prompt("enter bigger end number"));
+        var sum=0;
+        for(var i=start; i<=end; i++){
+            var isPrime=true;
+            for(var j=2; j<i; j++){
+                if(i%j==0){
+                    isPrime=false;
+                    break;
+                }               
+            }
+            if(isPrime)
+                sum+=i;
+                
+        }
+        document.write(`Sum of all prime numbers between ${start} and ${end} is ${sum}`);
+    </script>
+</body>
+</html>

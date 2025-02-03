@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Palindrome</title>
+</head>
+<body>
+    <script>
+        var start = parseInt(prompt("Enter the starting number"));
+        var end = parseInt(prompt("Enter the ending number"));
+        document.write("All palindrome numbers between "+start+" and "+end+" are:<br>");
+        
+        while(start<=end){
+            var number = start;
+            var reverse=0;
+            var temp=number;
+            while(number>0){
+                reverse=reverse*10+number%10;
+                number=parseInt(number/10);
+            }
+            if(temp==reverse){
+                document.write(temp+"<br>");
+            }
+            start++;
+        }
+    </script>
+</body>
+</html>

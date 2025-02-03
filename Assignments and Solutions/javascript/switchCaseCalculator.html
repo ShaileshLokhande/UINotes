@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        var num1 = parseInt(prompt("Enter first number"));
+        var num2 = parseInt(prompt("Enter second number"));
+        var operator = prompt("Enter operator");
+        var result;
+        switch(operator){
+            case '+':
+                result = num1+num2;
+                break;
+            case '-':
+                result = num1-num2;
+                break;
+            case '*':
+                result = num1*num2;
+                break;
+            case '/':
+                result = num1/num2;
+                break;
+            default:
+                result = "Invalid Operator";
+        }
+        document.write("The result is: "+result);
+    </script>
+</body>
+</html>

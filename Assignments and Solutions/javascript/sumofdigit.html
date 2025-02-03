@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sum of digits</title>
+</head>
+<body>
+    <script>
+		// sum of digit 123 ->6
+        //read a number from user and return lucky number  932=> 9+3+2=14=>5     
+        // return reverse of a number 123 => 321
+        // check if the number is palindrome number 121 
+        // to list out all palindrome numbers between 1-1000
+        // check if number is amstrong number or not 12 => 1sq + 2sq =5 
+        // 234 => 2cube + 3cube + 4 cube => 8+27+64 ** for  2**2  4**3
+        var number = prompt("Enter a number");
+        number = parseInt(number);
+        var sum = 0;
+        while(number>0){
+            sum+=number%10;
+            number=parseInt(number/10);
+        }
+        document.write(sum);
+    </script>
+</body>
+</html>

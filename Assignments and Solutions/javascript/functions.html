@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee details</title>
+</head>
+<body>
+    <script>
+        getEmployeeData();
+        function getEmployeeData(){
+            var name = prompt("enter name");
+            var salary = prompt("enter basic salary");
+            var pf = calculatePF(salary);
+            var hRA = calculateHRA(salary);
+            var total =parseInt(salary)+ parseInt(pf) + parseInt(hRA);
+            displayDetails(salary, pf, hRA, name, total);
+        }
+        function calculatePF(basic){
+            return basic*0.12;
+
+        }
+        function calculateHRA(basic){
+            return basic*0.25;
+        }
+        function displayDetails(salary, pf, hRA, emp, inhand){
+            console.log(`Basic salary of ${emp} is ${salary}. PF= ${pf}. hRA = ${hRA} so total = ${inhand}`)
+        }
+    </script>
+</body>
+</html>

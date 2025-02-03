@@ -4,8 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .background-1 {
+  width: 100%;
+  height: 400px; /* Adjust as needed */
+  padding: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+
+  /* Apply multiple background images */
+  background-image: url('https://images.unsplash.com/photo-1735752430707-28b5048814e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8'),   url('https://images.unsplash.com/photo-1735752430707-28b5048814e7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8');
+  
+  /* Set size for each background image */
+  background-size: 150px 150px, cover;
+
+  /* Position each background image */
+  background-position: top left, center;
+
+  /* Prevent overlapping and repeat behavior */
+  background-repeat: no-repeat, no-repeat;
+            
+
+  /* Add a background color as fallback */
+  background-color: #e11e1e;
+}
+
+    
+    </style>
 </head>
 <body>
-    
+    <div class="background-1">Hello</div>
 </body>
 </html>

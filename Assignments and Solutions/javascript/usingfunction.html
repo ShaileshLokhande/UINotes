@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var studentName, studentAge, gender;
+        var m1, m2, m3, total, avg, grade;
+        start();
+        function start(){
+            getStudentDetails();
+            calculateTotal();
+            calculateAvg();
+            calculateGrade();
+            displayStudentDetails();
+        }
+
+        function getStudentDetails(){
+            studentName = prompt("Enter student name");
+            studentAge = prompt("Enter student age");
+            gender = prompt("Enter student gender");
+            m1 = parseInt(prompt("Enter marks1"));
+            m2 = parseInt(prompt("Enter marks2"));
+            m3 = parseInt(prompt("Enter marks3"));     
+        }
+
+        function calculateTotal(){
+            total = m1+m2+m3;
+        }
+
+        function calculateAvg(){
+            avg = total/3;
+        }
+
+        function calculateGrade(){
+            if(avg>=90){
+                grade = "A";
+            }else if(avg>=80){
+                grade = "B";
+            }else if(avg>=70){
+                grade = "C";
+            }else if(avg>=60){
+                grade = "D";
+            }else{
+                grade = "F";
+            }
+        }
+
+        function displayStudentDetails(){
+            document.write("Student Name: "+studentName+"<br>");
+            document.write("Student Age: "+studentAge+"<br>");
+            document.write("Student Gender: " + gender+"<br>");
+            document.write("Marks1: "+m1+"<br>");
+            document.write("Marks2: "+m2+"<br>");
+            document.write("Marks3: "+m3+"<br>");
+            document.write("Total: "+total+"<br>");
+            document.write("Average: "+avg+"<br>");
+            document.write("Grade: "+grade+"<br>");
+        }
+    </script>
+</body>
+</html>
